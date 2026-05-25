@@ -22,9 +22,9 @@ export const recentMeals: Meal[] = [
     name: "Chicken Rice Bowl",
     calories: 540,
     protein: 35,
-    carbs: 45,
-    fat: 10,
-    fiber: 6,
+    carbs: 60,
+    fat: 15,
+    fiber: 5,
     time: "1:00 PM",
   },
 ];
