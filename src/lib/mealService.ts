@@ -4,6 +4,9 @@ export async function saveMealToDB(meal: {
     name: string;
     calories: number;
     protein: number;
+    carbs?: number;
+    fat?: number;
+    fiber?: number;
     image_url?: string;
 }) {
     const {
@@ -18,6 +21,10 @@ export async function saveMealToDB(meal: {
         calories: meal.calories,
         protein: meal.protein,
         image_url: meal.image_url || "",
+        carbs: meal.carbs || 0,
+        fat: meal.fat || 0,
+        fiber: meal.fiber || 0,
+
     });
 
 

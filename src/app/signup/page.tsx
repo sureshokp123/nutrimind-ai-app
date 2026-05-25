@@ -15,7 +15,7 @@ export default function SignupPage() {
       email,
       password,
       options: {
-        emailRedirectTo: "http://localhost:3000/auth/callback",
+        emailRedirectTo: `${window.location.origin}/auth/callback`,
       },
     });
 

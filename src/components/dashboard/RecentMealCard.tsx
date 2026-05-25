@@ -13,6 +13,9 @@ export default function RecentMealCard({ meal, onDelete }: Props) {
         <h3 className="font-semibold">{meal.name}</h3>
         <p>{meal.calories} kcal</p>
         <p>{meal.protein} g protein</p>
+         <p>{meal.carbs} g carbs</p>
+        <p>{meal.fat} g fat</p>
+        <p>{meal.fiber} g fiber</p>
         <p className="text-sm text-gray-500">{meal.time}</p>
         {meal.image_url && (
         <img
