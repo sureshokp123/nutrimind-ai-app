@@ -12,6 +12,9 @@ export const recentMeals: Meal[] = [
     name: "Oats with Banana",
     calories: 320,
     protein: 12,
+    carbs: 50,
+    fat: 5,
+    fiber: 8,
     time: "8:00 AM",
   },
   {
@@ -19,6 +22,9 @@ export const recentMeals: Meal[] = [
     name: "Chicken Rice Bowl",
     calories: 540,
     protein: 35,
+    carbs: 45,
+    fat: 10,
+    fiber: 6,
     time: "1:00 PM",
   },
 ];
