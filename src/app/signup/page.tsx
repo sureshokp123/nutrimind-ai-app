@@ -31,7 +31,7 @@ export default function SignupPage() {
 
   return (
     <div className="min-h-screen flex items-center justify-center">
-      <AuthCard title="Create NutriMind Account">
+      <AuthCard title="Create NutriMeal Analyzer AI Account">
         <input
           type="email"
           placeholder="Email"

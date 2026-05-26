@@ -26,7 +26,7 @@ export default function LoginPage() {
 
   return (
     <div className="min-h-screen flex items-center justify-center">
-      <AuthCard title="Login to NutriMind AI">
+      <AuthCard title="Login to NutriMeal Analyzer AI">
         <input
           type="email"
           placeholder="Email"

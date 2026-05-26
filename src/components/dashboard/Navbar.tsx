@@ -13,7 +13,7 @@ export default function Navbar() {
 
   return (
     <div className="flex items-center justify-between border-b px-6 py-4">
-      <h1 className="text-xl font-bold">NutriMind AI</h1>
+      <h1 className="text-xl font-bold">NutriMeal Analyzer AI</h1>
 
       <div className="flex gap-4 items-center">
         <a href="/dashboard">Dashboard</a>

@@ -1,4 +1,4 @@
-# NutriMind AI
+# Nutri Meal Analyzer AI
 
 Agentic AI Nutrition SaaS project built with:
 - Next.js

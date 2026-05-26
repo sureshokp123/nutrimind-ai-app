@@ -1,6 +1,6 @@
 import { Meal } from "@/src/types/meal";
 
-const STORAGE_KEY = "nutrimind_meals";
+const STORAGE_KEY = "nutrimeal_analyzer_meals";
 
 export function saveMeal(meal: Meal) {
   const existing = getMeals();
